@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>隐私정책 - WhyNutt Studio</title>
+    <!-- Import Nunito Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Base reset */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Main layout matching the index */
+      body {
+        font-family: "Nunito", sans-serif;
+        font-weight: 400; /* Normal weight for better reading of long texts */
+        background-color: #faf9f6; /* Off-white background */
+        color: #2c3e50; /* Dark slate text */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 1.6;
+      }
+
+      header {
+        padding: 40px 20px 20px;
+        text-align: center;
+      }
+
+      h1 {
+        color: #56a754; /* Game's primary green */
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+
+      /* Container for the text to make it readable */
+      main {
+        width: 100%;
+        max-width: 800px;
+        padding: 30px 40px;
+        margin: 0 20px 40px;
+        background-color: #ffffff;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        text-align: left;
+      }
+
+      /* Styling headings inside the text */
+      h2 {
+        color: #56a754;
+        font-size: 1.2rem;
+        font-weight: 700;
+        display: block;
+        margin-top: 25px;
+        margin-bottom: 10px;
+      }
+
+      /* First strong tag exception */
+      main > strong:first-child {
+        margin-top: 0;
+      }
+
+      p {
+        margin-bottom: 15px;
+      }
+
+      ul {
+        margin-bottom: 15px;
+        padding-left: 20px;
+      }
+      li {
+        margin-bottom: 5px;
+      }
+
+      a {
+        color: #56a754;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+
+      /* Back button styling */
+      .btn-outline {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 10px 25px;
+        border: 2px solid #718096;
+        color: #2c3e50;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background-color 0.2s;
+      }
+
+      .btn-outline:hover {
+        background-color: #edf2f7;
+        text-decoration: none;
+      }
+
+      hr {
+        border: 0;
+        height: 1px;
+        background: #e2e8f0;
+        margin: 30px 0;
+      }
+      br {
+        display: none;
+      } /* Hide old br tags as we use margins now */
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>WhyNutt Studio</h1>
+      <a href="index.html" class="btn-outline">홈으로 돌아가기</a>
+
+      <div style="margin-top: 15px">
+        <select
+          id="language-select"
+          onchange="location = this.value"
+          style="
+            padding: 5px 10px;
+            border-radius: 8px;
+            border: 1px solid #718096;
+            font-family: inherit;
+          "
+        >
+          <option value="privacy.html">English</option>
+          <option value="privacy-fr.html">Français</option>
+          <option value="privacy-es.html">Espanhol</option>
+          <option value="privacy-pt.html">Português</option>
+          <option value="privacy-it.html">Italiano</option>
+          <option value="privacy-de.html">Deutsch</option>
+          <option value="privacy-zh-cn.html">简体中文</option>
+          <option value="privacy-zh-tw.html">繁體中文</option>
+          <option value="privacy-ko.html" selected>한국어</option>
+          <option value="privacy-ja.html">日本語</option>
+          <option value="privacy-ru.html">Русский</option>
+          <option value="privacy-tr.html">Türkçe</option>
+          <option value="privacy-id.html">Bahasa Indonesia</option>
+        </select>
+      </div>
+    </header>
+
+    <!-- 메인 콘텐츠 -->
+    <main>
+      <h2>개인정보 처리방침</h2>
+      <p>
+        본 개인정보 처리방침은 WhyNutt Studio(이하 "서비스 제공자")가 선택적
+        인앱 구매가 포함된 광고 지원 서비스로 제작한 모바일 기기용 모든 모바일
+        애플리케이션 및 게임(이하 "애플리케이션")에 적용됩니다. 본 서비스는
+        "있는 그대로(AS IS)" 제공됩니다.
+      </p>
+
+      <h2>정보 수집 및 이용</h2>
+      <p>
+        애플리케이션은 귀하가 다운로드하고 사용할 때 정보를 수집합니다. 이
+        정보에는 다음과 같은 항목이 포함될 수 있습니다:
+      </p>
+      <ul>
+        <li>귀하 기기의 인터넷 프로토콜 주소(예: IP 주소)</li>
+        <li>
+          귀하가 방문한 애플리케이션 페이지, 방문 시간 및 날짜, 해당 페이지에서
+          보낸 시간
+        </li>
+        <li>애플리케이션에서 보낸 시간</li>
+        <li>모바일 기기에서 사용하는 운영 체제</li>
+        <li>
+          인앱 구매 시 구매 거래 내역 및 식별자(예: 제품 ID, 구매 토큰, 주문 ID)
+        </li>
+      </ul>
+
+      <p>
+        애플리케이션은 귀하 모바일 기기의 정확한 위치 정보를 수집하지 않습니다.
+      </p>
+
+      <h2>인앱 결제 및 금융 데이터</h2>
+      <p>
+        애플리케이션은 선택적 인앱 구매를 제공합니다. 모든 금융 거래, 결제 및
+        민감한 청구 상세 정보(신용카드 번호, 은행 계좌 정보, 청구 주소 등)는
+        <strong>Google Play Billing</strong> (Google LLC)에서 직접 안전하게
+        처리됩니다.
+      </p>
+      <p>
+        서비스 제공자는
+        <strong
+          >귀하의 결제 카드 정보나 금융 정보를 수집, 저장하거나 이에 접근하지
+          않습니다</strong
+        >. 서비스 제공자는 귀하의 구매를 확인하고 구매한 디지털 상품 또는
+        서비스를 부여하기 위해 Google로부터 확인 토큰, 주문 ID, 제품 식별자만
+        수신합니다.
+      </p>
+
+      <p>
+        애플리케이션은 <strong>Firebase Analytics</strong> 및
+        <strong>Firebase Crashlytics</strong>를 사용하여 이용 텔레메트리, 성능
+        지표 및 크래시 보고서(스택 트레이스, 기기 상태, 가명 식별자 등)를
+        수집합니다. 이 데이터는 플레이어 행동 분석, 앱 안정성 문제 진단 및
+        사용자 경험 개선에 도움이 됩니다.
+      </p>
+
+      <p>
+        분석 및 크래시 데이터는 Google Cloud 인프라에서 비즈니스 인텔리전스,
+        집계 보고 및 데이터 시각화를 위해 <strong>Google BigQuery</strong> 및
+        <strong>Looker Studio</strong>로 내보내져 처리될 수 있습니다.
+      </p>
+
+      <p>
+        애플리케이션은 귀하의 데이터를 처리하거나 기능을 제공하기 위해
+        인공지능(AI) 기술을 사용하지 않습니다.
+      </p>
+
+      <p>
+        서비스 제공자는 귀하에게 중요한 정보, 필수 공지사항 및 마케팅 프로모션을
+        제공하기 위해 때때로 귀하가 제공한 정보를 사용하여 연락할 수 있습니다.
+      </p>
+
+      <p>
+        더 나은 경험을 위해 애플리케이션을 사용하는 동안 서비스 제공자는
+        귀하에게 특정 개인 식별 정보를 제공하도록 요청할 수 있습니다. 서비스
+        제공자가 요청하는 정보는 서비스 제공자가 보유하며 본 개인정보 처리방침에
+        설명된 대로 사용됩니다.
+      </p>
+
+      <h2>제3자 접근</h2>
+      <p>
+        서비스 제공자가 애플리케이션과 서비스를 개선하는 데 도움을 주기 위해
+        집계되고 익명화되거나 가명화된 데이터만 주기적으로 외부 서비스로
+        전송됩니다. 서비스 제공자는 본 개인정보 보호고지서에 설명된 방식으로
+        귀하의 정보를 제3자와 공유할 수 있습니다.
+      </p>
+
+      <p>
+        애플리케이션은 데이터 처리에 대한 자체 개인정보 처리방침을 가진 제3자
+        서비스를 활용합니다. 다음은 애플리케이션에서 사용하는 제3자 서비스
+        제공자의 개인정보 처리방침 링크입니다:
+      </p>
+      <ul>
+        <li>
+          <a
+            href="https://www.google.com/policies/privacy/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Google Play Services</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://play.google.com/about/play-terms/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Google Play Billing Terms of Service</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://support.google.com/admob/answer/6128543?hl=fr"
+            target="_blank"
+            rel="noopener noreferrer"
+            >AdMob</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://firebase.google.com/support/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Firebase &amp; Crashlytics</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://cloud.google.com/terms/cloud-privacy-notice"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Google Cloud &amp; BigQuery</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.facebook.com/about/privacy/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Meta Audience Network</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://liftoff.io/privacy-policy/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Liftoff Monetize (Vungle)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://unity.com/legal/privacy-policy"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Unity Ads</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://godotengine.org/privacy-policy"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Godot</a
+          >
+        </li>
+      </ul>
+
+      <p>
+        서비스 제공자는 사용자가 제공한 정보 및 자동으로 수집된 정보를 공개할 수
+        있습니다:
+      </p>
+      <ul>
+        <li>
+          소환장 또는 유사한 법적 절차를 준수하는 등 법률에서 요구하는 경우
+        </li>
+        <li>
+          자신의 권리를 보호하거나 귀하의 안전 또는 타인의 안전을 보호하고
+          사기를 조사하거나 정부 요청에 응답하기 위해 공개가 필요하다고 선의로
+          믿는 경우
+        </li>
+        <li>
+          자신을 대리하여 일하고 제공된 정보를 독립적으로 사용하지 않으며 본
+          개인정보 보호고지서에 명시된 규칙을 준수하기로 합의한 신뢰할 수 있는
+          서비스 제공자와 공유하는 경우
+        </li>
+      </ul>
+
+      <h2>수집 거부 권리(Opt-Out)</h2>
+      <p>
+        애플리케이션을 언인스톨(삭제)하면 모든 정보 수집을 쉽게 중단할 수
+        있습니다. 모바일 기기의 일부로 제공되거나 모바일 애플리케이션
+        마켓플레이스/네트워크를 통해 이용 가능한 표준 삭제 프로세스를 사용할 수
+        있습니다.
+      </p>
+
+      <h2>데이터 보유 정책</h2>
+      <p>
+        서비스 제공자는 귀하가 애플리케이션을 사용하는 동안 그리고 그 후
+        합리적인 기간 동안 사용자가 제공한 데이터를 보유합니다. 귀하가
+        애플리케이션을 통해 제공한 사용자 제공 데이터의 삭제를 원하시는 경우
+        whynutt.studio.contact@gmail.com 으로 문의해 주시면 합리적인 시간 내에
+        답변해 드리겠습니다.
+      </p>
+
+      <h2>아동</h2>
+      <p>
+        서비스 제공자는 만 13세 미만의 아동으로부터 고의로 데이터를 수집하거나
+        마케팅을 진행하기 위해 애플리케이션을 사용하지 않습니다.
+      </p>
+
+      <p>
+        애플리케이션은 만 13세 미만의 아동을 대상으로 하지 않습니다. 서비스
+        제공자는 만 13세 미만 아동의 개인 식별 정보를 고의로 수집하지 않습니다.
+        서비스 제공자가 만 13세 미만 아동이 개인정보를 제공했음을 발견한 경우
+        서버에서 이를 즉시 삭제합니다. 귀하가 부모 또는 보호자이고 자녀가 당사에
+        개인정보를 제공했음을 알고 계신 경우 필요한 조치를 취할 수 있도록 서비스
+        제공자(whynutt.studio.contact@gmail.com)에 연락해 주시기 바랍니다.
+      </p>
+
+      <h2>보안</h2>
+      <p>
+        서비스 제공자는 귀하 정보의 비밀 유지를 위해 최선을 다하고 있습니다.
+        서비스 제공자는 처리하고 유지하는 정보를 보호하기 위해 물리적, 전자적,
+        절차적 안전장치를 제공합니다.
+      </p>
+
+      <h2>변경 사항</h2>
+      <p>
+        본 개인정보 처리방침은 어떤 이유로든 때때로 업데이트될 수 있습니다.
+        서비스 제공자는 본 페이지를 새 개인정보 처리방침으로 업데이트하여 변경
+        사항을 통지합니다. 지속적인 사용은 모든 변경 사항에 대한 승인으로
+        간주되므로 본 개인정보 처리방침을 정기적으로 확인하시는 것이 좋습니다.
+      </p>
+
+      <p>본 개인정보 처리방침은 2026-07-23부터 효력이 발생합니다.</p>
+
+      <h2>귀하의 동의</h2>
+      <p>
+        애플리케이션을 사용함으로써 귀하는 현재 및 당사에 의해 수정된 본
+        개인정보 처리방침에 명시된 대로 정보가 처리되는 것에 동의하게 됩니다.
+      </p>
+
+      <h2>문의하기</h2>
+      <p>
+        애플리케이션 사용 중 개인정보 보호에 관한 질문이 있거나 당사의 관행에
+        관한 질문이 있는 경우 이메일(whynutt.studio.contact@gmail.com)을 통해
+        서비스 제공자에게 문의해 주시기 바랍니다.
+      </p>
+    </main>
+  </body>
+</html>

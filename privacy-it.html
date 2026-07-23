@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Política di Privacy - WhyNutt Studio</title>
+    <!-- Import Nunito Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Base reset */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Main layout matching the index */
+      body {
+        font-family: "Nunito", sans-serif;
+        font-weight: 400; /* Normal weight for better reading of long texts */
+        background-color: #faf9f6; /* Off-white background */
+        color: #2c3e50; /* Dark slate text */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 1.6;
+      }
+
+      header {
+        padding: 40px 20px 20px;
+        text-align: center;
+      }
+
+      h1 {
+        color: #56a754; /* Game's primary green */
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+
+      /* Container for the text to make it readable */
+      main {
+        width: 100%;
+        max-width: 800px;
+        padding: 30px 40px;
+        margin: 0 20px 40px;
+        background-color: #ffffff;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        text-align: left;
+      }
+
+      /* Styling headings inside the text */
+      h2 {
+        color: #56a754;
+        font-size: 1.2rem;
+        font-weight: 700;
+        display: block;
+        margin-top: 25px;
+        margin-bottom: 10px;
+      }
+
+      /* First strong tag exception */
+      main > strong:first-child {
+        margin-top: 0;
+      }
+
+      p {
+        margin-bottom: 15px;
+      }
+
+      ul {
+        margin-bottom: 15px;
+        padding-left: 20px;
+      }
+      li {
+        margin-bottom: 5px;
+      }
+
+      a {
+        color: #56a754;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+
+      /* Back button styling */
+      .btn-outline {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 10px 25px;
+        border: 2px solid #718096;
+        color: #2c3e50;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background-color 0.2s;
+      }
+
+      .btn-outline:hover {
+        background-color: #edf2f7;
+        text-decoration: none;
+      }
+
+      hr {
+        border: 0;
+        height: 1px;
+        background: #e2e8f0;
+        margin: 30px 0;
+      }
+      br {
+        display: none;
+      } /* Hide old br tags as we use margins now */
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>WhyNutt Studio</h1>
+      <a href="index.html" class="btn-outline">Torna alla pagina principale</a>
+
+      <div style="margin-top: 15px">
+        <select
+          id="language-select"
+          onchange="location = this.value"
+          style="
+            padding: 5px 10px;
+            border-radius: 8px;
+            border: 1px solid #718096;
+            font-family: inherit;
+          "
+        >
+          <option value="privacy.html">English</option>
+          <option value="privacy-fr.html">Français</option>
+          <option value="privacy-es.html">Espanhol</option>
+          <option value="privacy-pt.html">Português</option>
+          <option value="privacy-it.html" selected>Italiano</option>
+          <option value="privacy-de.html">Deutsch</option>
+          <option value="privacy-zh-cn.html">简体中文</option>
+          <option value="privacy-zh-tw.html">繁體中文</option>
+          <option value="privacy-ko.html">한국어</option>
+          <option value="privacy-ja.html">日本語</option>
+          <option value="privacy-ru.html">Русский</option>
+          <option value="privacy-tr.html">Türkçe</option>
+          <option value="privacy-id.html">Bahasa Indonesia</option>
+        </select>
+      </div>
+    </header>
+
+    <!-- Contenuto principale -->
+    <main>
+      <h2>Informativa sulla privacy</h2>
+      <p>
+        La presente informativa sulla privacy si applica a tutte le applicazioni
+        mobili e ai giochi (di seguito denominati "Applicazione") per
+        dispositivi mobili creati da WhyNutt Studio (di seguito denominato
+        "Fornitore di servizi") come servizio supportato da annunci con acquisti
+        in-app opzionali. Questo servizio è destinato all'uso "COSÌ COM'È".
+      </p>
+
+      <h2>Raccolta e utilizzo delle informazioni</h2>
+      <p>
+        L'Applicazione raccoglie informazioni quando la scarichi e la utilizzi.
+        Queste informazioni possono includere dati quali:
+      </p>
+      <ul>
+        <li>
+          L'indirizzo Protocollo Internet del tuo dispositivo (es. indirizzo IP)
+        </li>
+        <li>
+          Le pagine dell'Applicazione che visiti, l'ora e la data della tua
+          visita, il tempo trascorso su tali pagine
+        </li>
+        <li>Il tempo trascorso sull'Applicazione</li>
+        <li>Il sistema operativo utilizzato sul tuo dispositivo mobile</li>
+        <li>
+          La cronologia delle transazioni di acquisto e gli identificativi (es.
+          ID prodotto, token di acquisto, ID ordine) quando effettui acquisti
+          in-app
+        </li>
+      </ul>
+
+      <p>
+        L'Applicazione non raccoglie informazioni precise sulla posizione del
+        tuo dispositivo mobile.
+      </p>
+
+      <h2>Acquisti in-app e dati finanziari</h2>
+      <p>
+        L'Applicazione offre acquisti in-app opzionali. Tutte le transazioni
+        finanziarie, i pagamenti e i dettagli di fatturazione sensibili (come
+        numeri di carta di credito, dati bancari o indirizzi di fatturazione)
+        sono elaborati direttamente e in modo sicuro da
+        <strong>Google Play Billing</strong> (Google LLC).
+      </p>
+      <p>
+        Il Fornitore di servizi
+        <strong
+          >non raccoglie, conserva o ha accesso ai dettagli della tua carta di
+          pagamento o alle tue informazioni finanziarie</strong
+        >. Riceviamo solo token di conferma, ID ordine e identificativi di
+        prodotto da Google per convalidare i tuoi acquisti e fornirti i beni o
+        servizi digitali acquistati.
+      </p>
+
+      <p>
+        L'Applicazione utilizza <strong>Firebase Analytics</strong> e
+        <strong>Firebase Crashlytics</strong>
+        per raccogliere telemetria d'uso, metriche di prestazioni e report sui
+        crash (come stack trace, stato del dispositivo e identificatori
+        pseudonimi). Questi dati ci aiutano ad analizzare il comportamento dei
+        giocatori, diagnosticare problemi di stabilità dell'app e migliorare
+        l'esperienza utente.
+      </p>
+
+      <p>
+        I dati di analisi e di crash possono essere esportati ed elaborati
+        utilizzando
+        <strong>Google BigQuery</strong> e <strong>Looker Studio</strong> per
+        scopi di business intelligence, reportistica aggregata e visualizzazione
+        dei dati sull'infrastruttura Google Cloud.
+      </p>
+
+      <p>
+        L'Applicazione non utilizza tecnologie di Intelligenza Artificiale (IA)
+        per elaborare i tuoi dati o fornire funzionalità.
+      </p>
+
+      <p>
+        Il Fornitore di servizi può utilizzare le informazioni fornite per
+        contattarti di tanto in tanto per fornirti informazioni importanti,
+        avvisi richiesti e promozioni di marketing.
+      </p>
+
+      <p>
+        Per una migliore esperienza durante l'utilizzo dell'Applicazione, il
+        Fornitore di servizi potrebbe richiedere di fornirci alcune informazioni
+        di identificazione personale. Le informazioni richieste dal Fornitore di
+        servizi saranno conservate da quest'ultimo e utilizzate come descritto
+        nella presente informativa sulla privacy.
+      </p>
+
+      <h2>Accesso di terze parti</h2>
+      <p>
+        Solo dati aggregati, anonimizzati o pseudonimizzati vengono
+        periodicamente trasmessi a servizi esterni per aiutare il Fornitore di
+        servizi a migliorare l'Applicazione e il proprio servizio. Il Fornitore
+        di servizi può condividere le tue informazioni con terze parti nei modi
+        descritti nella presente informativa sulla privacy.
+      </p>
+
+      <p>
+        Si prega di notare che l'Applicazione utilizza servizi di terze parti
+        che dispongono di una propria Informativa sulla privacy relativa al
+        trattamento dei dati. Di seguito sono riportati i link all'Informativa
+        sulla privacy dei fornitori di servizi di terze parti utilizzati
+        dall'Applicazione:
+      </p>
+      <ul>
+        <li>
+          <a
+            href="https://www.google.com/policies/privacy/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Google Play Services</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://play.google.com/about/play-terms/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Google Play Billing Terms of Service</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://support.google.com/admob/answer/6128543?hl=fr"
+            target="_blank"
+            rel="noopener noreferrer"
+            >AdMob</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://firebase.google.com/support/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Firebase &amp; Crashlytics</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://cloud.google.com/terms/cloud-privacy-notice"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Google Cloud &amp; BigQuery</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.facebook.com/about/privacy/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Meta Audience Network</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://liftoff.io/privacy-policy/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Liftoff Monetize (Vungle)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://unity.com/legal/privacy-policy"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Unity Ads</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://godotengine.org/privacy-policy"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Godot</a
+          >
+        </li>
+      </ul>
+
+      <p>
+        Il Fornitore di servizi può divulgare le Informazioni fornite
+        dall'utente e quelle raccolte automaticamente:
+      </p>
+      <ul>
+        <li>
+          se richiesto dalla legge, come per conformarsi a una citazione in
+          giudizio o a un procedimento legale simile;
+        </li>
+        <li>
+          quando ritiene in buona fede che la divulgazione sia necessaria per
+          proteggere i propri diritti, proteggere la tua sicurezza o quella
+          degli altri, indagare su frodi o rispondere a una richiesta
+          governativa;
+        </li>
+        <li>
+          con i propri fornitori di servizi fidati che lavorano per suo conto,
+          non hanno un uso indipendente delle informazioni che divulghiamo loro
+          e hanno accettato di rispettare le regole stabilite in questa
+          informativa sulla privacy.
+        </li>
+      </ul>
+
+      <h2>Diritti di recesso (Opt-Out)</h2>
+      <p>
+        Puoi interrompere facilmente ogni raccolta di informazioni da parte
+        dell'Applicazione disinstallandola. Puoi utilizzare i processi di
+        disinstallazione standard disponibili sul tuo dispositivo mobile o
+        tramite lo store o la rete di applicazioni mobili.
+      </p>
+
+      <h2>Informativa sulla conservazione dei dati</h2>
+      <p>
+        Il Fornitore di servizi conserverà i dati forniti dall'utente per tutto
+        il tempo in cui utilizzerai l'Applicazione e per un tempo ragionevole
+        successivo. Se desideri che vengano eliminati i dati forniti tramite
+        l'Applicazione, ti preghiamo di contattarlo all'indirizzo
+        whynutt.studio.contact@gmail.com e risponderà entro un termine
+        ragionevole.
+      </p>
+
+      <h2>Minori</h2>
+      <p>
+        Il Fornitore di servizi non utilizza l'Applicazione per richiedere
+        consapevolmente dati a minori di 13 anni o per fare marketing rivolto a
+        loro.
+      </p>
+
+      <p>
+        L'Applicazione non si rivolge a persone di età inferiore ai 13 anni. Il
+        Fornitore di servizi non raccoglie consapevolmente informazioni di
+        identificazione personale da minori di 13 anni. Nel caso in cui il
+        Fornitore di servizi scopra che un minore di 13 anni ha fornito
+        informazioni personali, provvederà immediatamente a eliminarle dai
+        propri server. Se sei un genitore o un tutore e sei a conoscenza del
+        fatto che tuo figlio ci ha fornito informazioni personali, ti preghiamo
+        di contattare il Fornitore di servizi (whynutt.studio.contact@gmail.com)
+        in modo da poter prendere le misure necessarie.
+      </p>
+
+      <h2>Sicurezza</h2>
+      <p>
+        Il Fornitore di servizi si preoccupa di salvaguardare la riservatezza
+        delle tue informazioni. Il Fornitore di servizi adotta misure di
+        protezione fisiche, elettroniche e procedurali per proteggere le
+        informazioni che elabora e conserva.
+      </p>
+
+      <h2>Modifiche</h2>
+      <p>
+        La presente Informativa sulla privacy può essere aggiornata di tanto in
+        tanto per qualsiasi motivo. Il Fornitore di servizi ti informerà di
+        eventuali modifiche aggiornando questa pagina con la nuova Informativa
+        sulla privacy. Ti consigliamo di consultare regolarmente la presente
+        Informativa sulla privacy per verificare eventuali modifiche, poiché
+        l'uso continuato è considerato approvazione di tutte le modifiche.
+      </p>
+
+      <p>La presente informativa sulla privacy è effettiva dal 23-07-2026</p>
+
+      <h2>Il tuo consenso</h2>
+      <p>
+        Utilizzando l'Applicazione, acconsenti al trattamento delle tue
+        informazioni così come stabilito nella presente Informativa sulla
+        privacy ora e come modificata da noi.
+      </p>
+
+      <h2>Contattaci</h2>
+      <p>
+        Se hai domande sulla privacy durante l'utilizzo dell'Applicazione, o
+        desideri porre domande sulle nostre pratiche, ti preghiamo di contattare
+        il Fornitore di servizi via e-mail all'indirizzo
+        whynutt.studio.contact@gmail.com.
+      </p>
+    </main>
+  </body>
+</html>
